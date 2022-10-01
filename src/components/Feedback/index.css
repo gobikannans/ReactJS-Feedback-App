@@ -1,0 +1,67 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #ffeeee, #ffc0bb);
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.heading {
+  font-size: 26px;
+  font-family: 'Roboto';
+  width: 80%;
+}
+.emoji-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thank-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.love-img {
+  height: 50px;
+  width: 50px;
+}
+
+.thank-text {
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
